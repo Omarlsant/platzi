@@ -54,13 +54,10 @@ function seleccionarMascotaEnemigo() {
 
     if (mascotaAleatorio == 1) {
         spanMascotaEnemigo.innerHTML = 'Hipodoge'
-        pronombre.innerHTML = 'El'
     } else if (mascotaAleatorio == 2) {
         spanMascotaEnemigo.innerHTML = 'Capipepo'
-        pronombre.innerHTML = 'El'
     } else if (mascotaAleatorio == 3) {
         spanMascotaEnemigo.innerHTML = 'Ratigueya'
-        pronombre.innerHTML = 'La'
     } else {
         alert("Ataque fallido")
     }
