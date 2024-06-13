@@ -15,7 +15,7 @@ body {
 .titulo {
     color: white;
     font-family: 'Fredoka', sans-serif;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .subtitulo {
@@ -23,7 +23,7 @@ body {
     height: 20px;
 }
 
-.tarjetas {
+.tarjetas, .ataque-tarjeta {
     display: flex;
     gap: 10px;
 }
@@ -58,4 +58,60 @@ body {
 
 input {
     display: none;
+}
+
+#seleccionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+
+.ataque-boton {
+    background-color: #11468f;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 100px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#mensajes {
+    width: 300px;
+    background: #EEEEEE;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#boton-reiniciar {
+    border: none;
+    color: #11468f;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    color: white;
+}
+
+#vidas-jugador, #vidas-enemigo {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.contenedor-jugador, .contenedor-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 360px) {
+    .tarjetas, .ataque-tarjeta {
+        flex-direction: column;
+    }
 }
