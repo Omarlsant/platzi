@@ -11,6 +11,7 @@ const inputHipodoge = document.getElementById('hipodoge')
 const inputCapipepo = document.getElementById('capipepo')
 const inputRatigueya = document.getElementById('ratigueya')
 const spanMascotaJugador = document.getElementById('mascota-jugador')
+const spanMascotaEnemigo = document.getElementById('mascota-enemigo')
 
 const spanVidasJugador = document.getElementById('vida-jugador')
 const spanVidasEnemigo = document.getElementById('vida-enemigo')
